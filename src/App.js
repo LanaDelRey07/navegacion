@@ -1,8 +1,11 @@
+import {Navigation} from './routes/Navigation'
 import logo from './logo.svg';
 
 function App() {
   return (
-    App
+    <>
+      <Navigation />
+    </>
   );
 }
 
