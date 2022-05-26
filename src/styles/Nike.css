@@ -1,0 +1,18 @@
+.lgnike{
+    border-radius: 15px;
+    width: 120px; height: 60px;
+}
+
+.nike{
+    display: flex;
+    justify-content: center;
+    margin: 5px auto;
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+.productos-n{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+}

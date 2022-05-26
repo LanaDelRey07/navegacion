@@ -1,16 +1,17 @@
     import React from 'react'
     import {BrowserRouter, Routes, Route, NavLink} from 'react-router-dom'
     import { Home } from '../components/Home'
-    import { About } from '../components/About'
+    import { Login } from '../components/Login'
+    import '../styles/App.css'
     import { Students } from '../components/Students'
-    import logo from '../logo.svg';
+    import logo from '../../src/logo_sucha.png';
     
     function Navigation() {
       return (
         
         <BrowserRouter>
         <nav>
-            <img src={logo} alt='' />
+            <img src={logo} alt='' width={200}/>
         <ul>
             <li>
                 <NavLink to='/' className={({isActive}) => isActive ? 'nav-active' : ''}>
@@ -18,8 +19,8 @@
                 </NavLink>
             </li>
             <li>
-                <NavLink to='/about' className={({isActive}) => isActive ? 'nav-active' : ''}>
-                    About
+                <NavLink to='/Login' className={({isActive}) => isActive ? 'nav-active' : ''}>
+                    Login
                 </NavLink>
             </li>
             <li>
@@ -31,7 +32,7 @@
         </nav>
             <Routes>
                 <Route path='/' element={Home}/>
-                <Route path='about' element={About}/>
+                <Route path='Login' element={Login}/>
                 <Route path='Students' element={Students}/>
             </Routes>
         </BrowserRouter>

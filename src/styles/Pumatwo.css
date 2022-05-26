@@ -1,0 +1,23 @@
+.p-dos{
+    margin: 0 5%;
+    display: flex;
+    justify-content: center;
+    width: 45%; height: 50%; 
+    border: 5px solid hsl(46, 42%, 29%);
+    border-radius: 15px;
+}
+
+.p-dos img{
+    width: 100%; height: 45%;
+    border-radius: 9px;
+}
+
+.p-dos img:hover{
+    animation: pum 2s infinite;
+}
+
+@keyframes pum{
+    0%{transform: scale(1.1);}
+    50%{transform: scale(1.1);}
+    100%{transform: scale(1.1);}
+}

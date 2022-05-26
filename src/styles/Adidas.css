@@ -1,0 +1,18 @@
+.adidas img{
+    border-radius: 50%;
+    width: 60px; height: 60px;
+}
+
+.adidas{
+    display: flex;
+    justify-content: center;
+    margin: 5px auto;
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+.productos-a{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+}
