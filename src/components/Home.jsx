@@ -9,7 +9,6 @@ import { Puma } from './Puma/Puma';
 
 function Home() {
   return (
-
     <div className='home'>
       <Cabecera/>
       <Adidas/>

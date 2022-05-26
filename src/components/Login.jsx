@@ -1,8 +1,12 @@
 import React from 'react'
+import LoginUi from './LoginUi'
+import '../styles/App.css';
 
 function Login() {
   return (
-    <h1>login</h1>
+    <div className='login'>
+      <LoginUi/>
+    </div>
   )
 }
 
